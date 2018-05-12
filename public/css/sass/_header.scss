@@ -1,0 +1,88 @@
+header {
+	height: 4em;
+	margin: 1em 10%;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	
+	.logo {
+		height: 4em;
+	}
+
+	nav {
+		display: flex;
+		justify-content: space-between;
+		width: 40%;
+		overflow: hidden;
+
+		a {
+			line-height: 4em;
+			text-transform: uppercase;
+			text-decoration: none;
+			color: #000000;
+			transition: color 0.5s ease;
+
+
+			&:hover {
+				color: $hover;
+			}
+		}
+	}
+
+	button {
+		height: 3em; width: 3em;
+		position: relative;
+		top: -3.5em;
+		float: right;
+		margin: 0; padding: 0;
+		border: none;
+		background: url(../images/hamburger.png); background-size: cover;
+		display: none;
+	}
+}
+
+@media (max-width: 1200px) {
+	header {
+		height: auto;
+		display: block;
+
+		.logo {
+			display: block;
+			margin: auto;
+		}
+
+		nav {
+			width: 90%;
+			margin: auto;
+			a {
+				margin: 0 .5em;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	header {
+
+		.logo {
+			width: auto;
+			height: 3em;
+		}
+
+		nav {
+			display: block;
+			margin: auto; margin-top: 1em;
+			a {
+				display: block;
+			}
+
+			&.hidden {
+			height: 0;
+		}
+		}
+
+		button {
+			display: block;
+		}
+	}
+}

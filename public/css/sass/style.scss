@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Signika');
+
+
+$hover: #990000;
+
+html, body {
+	font-size: 16px;
+	font-family: Signika, arial, helvetica, sans-serif;
+	width: 100%;
+	margin: 0;
+}
+
+@import 'header';
+@import 'frontpage';
+@import 'releases';
+@import 'release';
+@import 'roster';
+
+main {
+	margin: 0 10%;
+}
+
+.leftArt {
+	position: absolute;
+	background: url('../images/artL.png');
+	height: 10em;
+	width: 10em;
+	left: 0;
+	top: 0;
+	z-index: -99;
+	background-size: cover;
+}
+
+.rightArt {
+	position: fixed;
+	background: url('../images/artR.png');
+	height: 10em;
+	width: 10em;
+	right: 0;
+	bottom: 0;
+	z-index: -99;
+	background-size: cover;
+}
+
+@media (max-width: 768px) {
+	.leftArt {
+		display: none;
+	}
+
+	.rightArt {
+		height: 5em;
+		width: 5em;
+	}
+}
+
+h1 {
+	font-weight: normal;
+}

@@ -1,0 +1,724 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"rela",
+				"relative"
+			],
+			[
+				"fo",
+				"font-size\t(style.scss)"
+			],
+			[
+				"mar",
+				"margin-top\t(_release.scss)"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"w",
+				"width\t(style.scss)"
+			],
+			[
+				"rele",
+				"releases.html"
+			],
+			[
+				"tr",
+				"tribal_cover.png\t(release.html)"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"font",
+				"font-family\t(style.scss)"
+			],
+			[
+				"re",
+				"releases\t(releases.html)"
+			],
+			[
+				"releases",
+				"releases.html\t(releases.html)"
+			],
+			[
+				"ri",
+				"rightArt"
+			],
+			[
+				"bac",
+				"background-size\t(style.scss)"
+			],
+			[
+				"co",
+				"cover\t(style.scss)"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"p",
+				"position\t(style.scss)"
+			],
+			[
+				"cli",
+				"clientHeight\tproperty"
+			],
+			[
+				"tog",
+				"toggleMenu"
+			],
+			[
+				"relea",
+				"releases"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ex",
+				"explode"
+			],
+			[
+				"c",
+				"close\tmethod"
+			],
+			[
+				"l",
+				"longitude\tproperty"
+			],
+			[
+				"Ma",
+				"Marker"
+			],
+			[
+				"lat",
+				"latitude"
+			],
+			[
+				"M",
+				"Marker\tclass"
+			],
+			[
+				"le",
+				"length\t(scripts.js)"
+			],
+			[
+				"sear",
+				"searchField"
+			],
+			[
+				"map",
+				"MapOptions\tinterface"
+			],
+			[
+				"get",
+				"getElementById\tmethod"
+			],
+			[
+				"docu",
+				"document\t(scripts.js)"
+			],
+			[
+				"transa",
+				"transaction"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"total",
+				"totalWorth"
+			],
+			[
+				"time",
+				"timezone"
+			],
+			[
+				"ret",
+				"returnData"
+			],
+			[
+				"d",
+				"dict"
+			],
+			[
+				"stocks",
+				"stocksAsDicts"
+			],
+			[
+				"sy",
+				"symbolList"
+			],
+			[
+				"sto",
+				"stock"
+			],
+			[
+				"fin",
+				"financeService\t(tradeController.py)"
+			],
+			[
+				"tra",
+				"transactions\t(tradeController.py)"
+			],
+			[
+				"Tr",
+				"Transaction\t(transaction.py)"
+			],
+			[
+				"sym",
+				"symbolData"
+			],
+			[
+				"symbol",
+				"symbolData"
+			],
+			[
+				"dat",
+				"database\t(authController.py)"
+			],
+			[
+				"fi",
+				"filter_by\t(authController.py)"
+			],
+			[
+				"pr",
+				"price"
+			],
+			[
+				"fina",
+				"financeService"
+			],
+			[
+				"symbo",
+				"symbolData"
+			],
+			[
+				"q",
+				"quoteForm"
+			],
+			[
+				"ap",
+				"apiKey"
+			],
+			[
+				"set",
+				"setPassword\t(user.py)"
+			],
+			[
+				"regi",
+				"registerForm"
+			],
+			[
+				"login",
+				"login_required"
+			],
+			[
+				"sta",
+				"standardController"
+			],
+			[
+				"r",
+				"return"
+			],
+			[
+				"aut",
+				"authController\t(application.py)"
+			],
+			[
+				"pass",
+				"password\t(application.py)"
+			],
+			[
+				"ne",
+				"neutral"
+			],
+			[
+				"tw",
+				"tweet\t(tweets)"
+			],
+			[
+				"negat",
+				"negativeTokens"
+			],
+			[
+				"posi",
+				"positiveTokens"
+			],
+			[
+				"po",
+				"positiveTokens\tstatement"
+			],
+			[
+				"pro",
+				"progress"
+			],
+			[
+				"tes",
+				"testString"
+			],
+			[
+				"last",
+				"lastDigit"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"split",
+				"split__light\t(first-split.php)"
+			],
+			[
+				"first",
+				"first-split\t(index.php)"
+			],
+			[
+				"he",
+				"height\t(_hero.scss)"
+			],
+			[
+				"filter",
+				"filterText"
+			],
+			[
+				"Comm",
+				"Community"
+			],
+			[
+				"Communit",
+				"CommunityFilterContainer"
+			],
+			[
+				"Community",
+				"CommunityListContainer"
+			],
+			[
+				"de",
+				"description"
+			],
+			[
+				"Co",
+				"CommunityEntry"
+			],
+			[
+				"default",
+				"defaultState〔variable〕"
+			],
+			[
+				"comm",
+				"communityFilter"
+			],
+			[
+				"fil",
+				"filterField"
+			],
+			[
+				"commun",
+				"communityFilters"
+			],
+			[
+				"com",
+				"combineReducers"
+			],
+			[
+				"country",
+				"countryFilter"
+			],
+			[
+				"pt",
+				"photoUrl"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "pac",
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Contro",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Contr",
+				"Package Control: Install Package"
+			],
+			[
+				"Inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Git",
+				"Package Control: Install Package"
+			],
+			[
+				"Mate",
+				"Material Theme: Activate theme"
+			],
+			[
+				"Instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 176.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Jos/projects/differential/css/sass/_roster.scss",
+		"/Users/Jos/projects/differential/css/sass/_frontpage.scss",
+		"/Users/Jos/projects/differential/index.html",
+		"/Users/Jos/projects/differential/release.html",
+		"/Users/Jos/projects/differential/releases.html",
+		"/Users/Jos/projects/differential/roster.html",
+		"/Users/Jos/projects/differential/artist.html",
+		"/Users/Jos/projects/differential/css/sass/style.scss",
+		"/Users/Jos/projects/differential/css/style.css",
+		"/Users/Jos/Downloads/nobody_m.original.jpg",
+		"/Users/Jos/projects/differential/css/sass/_releases.scss",
+		"/Users/Jos/projects/differential/css/sass/_release.scss",
+		"/Users/Jos/projects/differential/css/sass/_header.scss",
+		"/Users/Jos/projects/differential/js/src/main.ts",
+		"/Users/Jos/python/pset8/mashup/readme.md",
+		"/Users/Jos/python/pset8/mashup/application.py",
+		"/Users/Jos/python/pset8/mashup/static/js/src/main.ts",
+		"/Users/Jos/python/pset8/mashup/templates/index.html",
+		"/Users/Jos/python/pset8/mashup/static/js/src/scripts.js",
+		"/Users/Jos/python/pset8/mashup/tsconfig.json",
+		"/Users/Jos/python/pset8/mashup/gulpfile.js",
+		"/Users/Jos/python/pset8/mashup/static/css/sass/styles.scss",
+		"/Users/Jos/python/pset8/mashup/static/css/sass/styles.sass",
+		"/Users/Jos/python/pset8/mashup/package.json",
+		"/Users/Jos/python/pset8/mashup/static/scripts.js",
+		"/Users/Jos/python/pset7/finance/controllers/authController.py",
+		"/Users/Jos/python/pset7/finance/controllers/tradeController.py",
+		"/Users/Jos/python/pset7/finance/templates/history.html",
+		"/Users/Jos/python/pset7/finance/controllers/standardController.py",
+		"/Users/Jos/python/pset7/finance/templates/index.html",
+		"/Users/Jos/python/pset7/finance/models/transaction.py",
+		"/Users/Jos/python/pset7/finance/services/financeService.py",
+		"/Users/Jos/python/pset7/finance/forms/sellForm.py",
+		"/Users/Jos/python/pset7/finance/templates/buy.html",
+		"/Users/Jos/python/pset7/finance/templates/login.html",
+		"/Users/Jos/python/pset7/finance/templates/password.html",
+		"/Users/Jos/python/pset7/finance/templates/quote.html",
+		"/Users/Jos/python/pset7/finance/templates/register.html",
+		"/Users/Jos/python/pset7/finance/templates/sell.html",
+		"/Users/Jos/python/pset7/finance/models/stock.py",
+		"/Users/Jos/python/pset7/finance/helpers.py",
+		"/Users/Jos/python/pset7/finance/templates/layout.html",
+		"/Users/Jos/python/pset7/finance/static/style.css",
+		"/Users/Jos/python/pset7/finance/templates/_formhelpers.html",
+		"/Users/Jos/python/pset7/finance/static/styles.css",
+		"/Users/Jos/python/pset7/finance/requirements.txt",
+		"/Users/Jos/python/pset7/finance/forms/passwordForm.py",
+		"/Users/Jos/python/pset7/finance/forms/quoteForm.py",
+		"/Users/Jos/python/pset7/finance/forms/buyForm.py",
+		"/Users/Jos/python/pset7/finance/forms/loginForm.py",
+		"/Users/Jos/python/pset7/finance/forms/registerForm.py",
+		"/Users/Jos/python/pset7/finance/models/user.py",
+		"/Users/Jos/python/pset7/finance/application.py",
+		"/Users/Jos/python/pset7/finance/services/finance.py",
+		"/Users/Jos/python/pset7/finance/Forms/loginForm.py",
+		"/Users/Jos/python/pset7/finance/Forms/__init__.py",
+		"/Users/Jos/python/pset7/finance/services/__init__.py",
+		"/Users/Jos/python/pset7/finance/controllers/__init.py__",
+		"/Users/Jos/python/pset7/finance/models/database.py",
+		"/Users/Jos/python/pset6/credit.py",
+		"/Users/Jos/python/pset7/finance/models/__init__.py",
+		"/Users/Jos/python/pset6/sentiments/analyzer.py",
+		"/Users/Jos/python/pset6/sentiments/tweets",
+		"/Users/Jos/python/pset6/sentiments/positive-words.txt",
+		"/Users/Jos/python/pset6/sentiments/application.py",
+		"/Users/Jos/python/pset6/sentiments/helpers.py",
+		"/Users/Jos/python/pset6/mario.py",
+		"/Users/Jos/python/pset6/crack.py",
+		"/Users/Jos/python/pset6/sentiments/smile",
+		"/Users/Jos/python/pset6/sentiments/negative-words.txt",
+		"/Users/Jos/python/pset6/sentiments/templates/layout.html",
+		"/Users/Jos/Desktop/accounts_query.sql",
+		"/Users/Jos/Library/Application Support/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/Users/Jos/python/mario.py",
+		"/Users/Jos/python/crack.py",
+		"/Users/Jos/Downloads/problems-sentiments.zip",
+		"/Users/Jos/python/get-pip.py",
+		"/Users/Jos/Library/Application Support/Sublime Text 3/Packages/User/pep8_autoformat.sublime-settings",
+		"/Users/Jos/Downloads/dictionaryNew/Makefile",
+		"/Users/Jos/Downloads/shepard_tone.midi",
+		"/Users/Jos/PhpstormProjects/Crowdacting/src/AppBundle/Entity/Project.php",
+		"/Users/Jos/PhpstormProjects/pagekit/packages/josvlaar/theme-jos-vlaar/views/bloglinks.php",
+		"/Users/Jos/PhpstormProjects/pagekit/packages/josvlaar/theme-jos-vlaar/views/belowblog.php",
+		"/Applications/Ableton Live 10 Suite.app/Contents/MacOS/Installation.cfg",
+		"/Users/Jos/PhpstormProjects/Crowdacting/src/AppBundle/AppBundle.php",
+		"/Users/Jos/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Applications/OSBuddy.app/Contents/MacOS/JavaAppLauncher",
+		"/Users/Jos/Downloads/libcs50-8.1.0/README.md",
+		"/Users/Jos/PhpstormProjects/hightea/packages/josvlaar/theme-high-tea/css/sass/modules/_split.scss",
+		"/Users/Jos/PhpstormProjects/hightea/packages/josvlaar/theme-high-tea/css/sass/modules/_hero.scss",
+		"/Users/Jos/PhpstormProjects/hightea/packages/josvlaar/theme-high-tea/css/sass/modules/_header.scss",
+		"/Users/Jos/PhpstormProjects/hightea/packages/josvlaar/theme-high-tea/css/sass/theme.scss",
+		"/Users/Jos/PhpstormProjects/hightea/packages/josvlaar/theme-high-tea/css/sass/modules/_colored.scss",
+		"/Users/Jos/Downloads/LemonMilk.woff",
+		"/Users/Jos/PhpstormProjects/hightea/packages/josvlaar/theme-jos-vlaar/css/sass/theme.scss",
+		"/Users/Jos/PhpstormProjects/hightea/packages/josvlaar/theme-jos-vlaar/gulpfile.js",
+		"/Users/Jos/PhpstormProjects/hightea/packages/josvlaar/theme-jos-vlaar/css/sass/modules/_hero.scss",
+		"/Users/Jos/PhpstormProjects/hightea/packages/josvlaar/theme-jos-vlaar/css/sass/modules/_header.scss",
+		"/Users/Jos/PhpstormProjects/hightea/packages/josvlaar/theme-jos-vlaar/views/two-columns.php",
+		"/Users/Jos/PhpstormProjects/hightea/packages/josvlaar/theme-jos-vlaar/css/sass/modules/_with-logos.scss",
+		"/Users/Jos/PhpstormProjects/hightea/packages/josvlaar/theme-jos-vlaar/css/sass/modules/_colored.scss",
+		"/Users/Jos/PhpstormProjects/hightea/packages/josvlaar/theme-jos-vlaar/views/colored.php",
+		"/Users/Jos/PhpstormProjects/hightea/packages/josvlaar/theme-jos-vlaar/views/with-logos.php",
+		"/Users/Jos/PhpstormProjects/hightea/packages/josvlaar/theme-high-tea/composer.json",
+		"/Users/Jos/PhpstormProjects/hightea/packages/josvlaar/theme-jos-vlaar/composer.json",
+		"/Users/Jos/Library/Application Support/minecraft/saves/New World/level.dat",
+		"/Users/Jos/PhpstormProjects/hightea/packages/josvlaar/theme-jos-vlaar/css/theme.css",
+		"/Users/Jos/PhpstormProjects/hightea/gulpfile.js",
+		"/Users/Jos/PhpstormProjects/hightea/docker-compose.yml",
+		"/Users/Jos/Library/Application Support/Steam/SteamApps/common/Team Fortress 2/tf/cfg/autoexec.cfg",
+		"/Users/Jos/Desktop/autoexec.cfg",
+		"/usr/local/php5-7.0.11-20160923-203451/lib/php.ini",
+		"/Users/Jos/PhpstormProjects/pagekit/packages/josvlaar/theme-jos-vlaar/views/template.php",
+		"/Users/Jos/PhpstormProjects/MVC Test/templates/HomeTemplate.php",
+		"/Users/Jos/PhpstormProjects/MVC Test/index.php",
+		"/Users/Jos/PhpstormProjects/ye_salesforce/README.md",
+		"/Users/Jos/PhpstormProjects/MVC Test/services/Databasehandler.class.php",
+		"/Users/Jos/.ssh/id_rsa.pub",
+		"/Users/Jos/PhpstormProjects/yecommunity/yecommunity/application/data/cache/htmlpurifier/URI/4.8.0,6c64f5fe1a50c15a5a90b97dd8bb2ff804117944,1.ser",
+		"/Users/Jos/PhpstormProjects/yecommunity/yecommunity/application/data/cache/htmlpurifier/HTML/4.9.2,be79c9b221fe83aa1a6c876875a18b444ab8708a,5.ser",
+		"/Users/Jos/PhpstormProjects/yecommunity/yecommunity/Gemfile",
+		"/Users/Jos/PhpstormProjects/yecommunity/yecommunity/application/modules/default/controllers/ProfileController.php",
+		"/Users/Jos/PhpstormProjects/yecommunity/yecommunity/application/modules/default/Model/ContestEntry.php",
+		"/Users/Jos/PhpstormProjects/yecommunity/yecommunity/vendor/grrr-amsterdam/garp3/library/Garp/Cli/Command.php",
+		"/Users/Jos/.bash_profile",
+		"/Users/Jos/Desktop/accounts NEW.csv",
+		"/Users/Jos/PhpstormProjects/WijnspijsMagazine/docker/mysql/Dockerfile",
+		"/Users/Jos/PhpstormProjects/WijnspijsMagazine/docker/mysql/my.cnf"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 65.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 64.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "differential.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 374.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 269.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

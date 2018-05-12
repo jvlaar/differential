@@ -1,0 +1,83 @@
+.roster {
+	.grid {
+		display: flex;
+		flex-wrap: wrap;
+		div {
+			display: block;
+			width: 30%;
+			margin-right: 3%;
+			margin-bottom: 2em;
+			text-align: center; text-decoration: none;
+			color: #000000;
+			font-family: arial, helvetica, sans-serif;
+			transition: color 1s ease;
+
+			.overlay {
+				position: relative;
+				width: 100%;
+				margin-bottom: 0;
+
+				img {
+					width: 100%;
+					transition: filter 1s ease;
+					-webkit-filter: grayscale(0%) contrast(100%) brightness(100%);
+	  				filter: grayscale(0%) contrast(100%) brightness(100%);
+				}
+
+				p {
+					height: 100%;
+					position: absolute;
+					top: 0;
+					padding: 1em; padding-top: 0.5em;
+					line-height: 1.5;
+					opacity: 0;
+					transition: opacity 1s ease;
+				}
+			}
+
+			strong {
+				display: block;
+				text-align: center;
+				font-family: Signika;
+			}
+
+			&:hover {
+				.overlay {
+					img {
+						-webkit-filter: grayscale(100%) contrast(50%) brightness(145%);
+						filter: grayscale(100%) contrast(50%) brightness(145%);
+					}
+
+					p {
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width: 1200px) {
+	.releases {
+		.grid {
+			a {
+				width: 30%;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.releases {
+		.grid {
+			display: block;
+			a {
+				width: 70%;
+				margin: auto; margin-bottom: 2em;
+
+				strong {
+					margin-top: .5em;
+				}
+			}
+		}
+	}
+}
