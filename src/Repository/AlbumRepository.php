@@ -2,7 +2,7 @@
 
 namespace App\Repository;
 
-use App\Entity\Release;
+use App\Entity\Album;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Symfony\Bridge\Doctrine\RegistryInterface;
 
@@ -12,23 +12,24 @@ use Symfony\Bridge\Doctrine\RegistryInterface;
  * @method Release[]    findAll()
  * @method Release[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
  */
-class ReleaseRepository extends ServiceEntityRepository
+class AlbumRepository extends ServiceEntityRepository
 {
     public function __construct(RegistryInterface $registry)
     {
-        parent::__construct($registry, Release::class);
+        parent::__construct($registry, Album::class);
     }
 
-    /*
-    public function findBySomething($value)
+    /**
+     * @return Product[]
+     */
+    public function findPublic(): array
     {
-        return $this->createQueryBuilder('r')
-            ->where('r.something = :value')->setParameter('value', $value)
-            ->orderBy('r.id', 'ASC')
-            ->setMaxResults(10)
-            ->getQuery()
-            ->getResult()
-        ;
+        // automatically knows to select Products
+        // the "p" is an alias you'll use in the rest of the query
+        $qb = $this->createQueryBuilder('p')
+            ->getQuery();
+
+        return $qb->execute();
     }
-    */
+    
 }
