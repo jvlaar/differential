@@ -1,0 +1,117 @@
+<?php return array (
+  'lifetime' => 0,
+  'data' => 
+  array (
+    'class' => 'Driven\\Listings\\Model\\ListingCategory',
+    'eventPrefix' => NULL,
+    'events' => 
+    array (
+    ),
+    'fields' => 
+    array (
+      'id' => 
+      array (
+        'name' => 'id',
+        'type' => 'integer',
+        'id' => true,
+        'column' => 'id',
+      ),
+      'listing_id' => 
+      array (
+        'name' => 'listing_id',
+        'type' => 'integer',
+        'column' => 'listing_id',
+      ),
+      'created_by' => 
+      array (
+        'name' => 'created_by',
+        'type' => 'integer',
+        'column' => 'created_by',
+      ),
+      'created_on' => 
+      array (
+        'name' => 'created_on',
+        'type' => 'integer',
+        'column' => 'created_on',
+      ),
+      'modified_by' => 
+      array (
+        'name' => 'modified_by',
+        'type' => 'integer',
+        'column' => 'modified_by',
+      ),
+      'modified_on' => 
+      array (
+        'name' => 'modified_on',
+        'type' => 'integer',
+        'column' => 'modified_on',
+      ),
+      'title' => 
+      array (
+        'name' => 'title',
+        'type' => 'string',
+        'column' => 'title',
+      ),
+      'description' => 
+      array (
+        'name' => 'description',
+        'type' => 'string',
+        'column' => 'description',
+      ),
+      'image' => 
+      array (
+        'name' => 'image',
+        'type' => 'string',
+        'column' => 'image',
+      ),
+      'position' => 
+      array (
+        'name' => 'position',
+        'type' => 'smallint',
+        'column' => 'position',
+      ),
+      'status' => 
+      array (
+        'name' => 'status',
+        'type' => 'smallint',
+        'column' => 'status',
+      ),
+      'featured_from' => 
+      array (
+        'name' => 'featured_from',
+        'type' => 'integer',
+        'column' => 'featured_from',
+      ),
+      'featured_to' => 
+      array (
+        'name' => 'featured_to',
+        'type' => 'integer',
+        'column' => 'featured_to',
+      ),
+    ),
+    'isMappedSuperclass' => false,
+    'relations' => 
+    array (
+      'creator' => 
+      array (
+        'name' => 'creator',
+        'type' => 'BelongsTo',
+        'targetEntity' => 'Pagekit\\User\\Model\\User',
+        'keyFrom' => 'created_by',
+        'keyTo' => NULL,
+      ),
+      'items' => 
+      array (
+        'name' => 'items',
+        'type' => 'HasMany',
+        'targetEntity' => 'Driven\\Listings\\Model\\Item',
+        'keyFrom' => 'id',
+        'keyTo' => 'category_id',
+        'orderBy' => 
+        array (
+        ),
+      ),
+    ),
+    'table' => '@listings_category',
+  ),
+);

@@ -1,68 +1,50 @@
 {
+    "name": "pagekit/pagekit",
     "type": "project",
-    "license": "proprietary",
+    "description": "The Pagekit CMS",
+    "keywords": ["cms", "pagekit"],
+    "homepage": "http://pagekit.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pagekit Team",
+            "email": "info@pagekit.com"
+        }
+    ],
     "require": {
-        "php": "^7.0.8",
-        "ext-iconv": "*",
-        "symfony/console": "^3.4",
-        "symfony/flex": "^1.0",
-        "symfony/form": "^3.4",
-        "symfony/framework-bundle": "^3.4",
-        "symfony/lts": "^3",
-        "symfony/orm-pack": "^1.0",
-        "symfony/security-bundle": "^3.4",
-        "symfony/security-csrf": "^3.4",
-        "symfony/twig-bundle": "^3.4",
-        "symfony/validator": "^3.4",
-        "symfony/yaml": "^3.4",
-        "vich/uploader-bundle": "^1.8"
+        "php": ">=5.5.9",
+        "composer/composer": "dev-master#7a9eb02190d334513e99a479510f87eed18cf958",
+        "doctrine/annotations": "~1.2.3",
+        "doctrine/dbal": "~2.5.1",
+        "ircmaxell/random-lib": "~1.0.0",
+        "maximebf/debugbar": "~1.11.0",
+        "monolog/monolog": "~1.13",
+        "nikic/php-parser": "~2.0.0",
+        "psr/log": "~1.0.0",
+        "swiftmailer/swiftmailer": "~5.4.5",
+        "symfony/debug": "~3.0.0",
+        "symfony/finder": "~3.0.0",
+        "symfony/http-foundation": "~3.0.0",
+        "symfony/routing": "~3.0.0",
+        "symfony/stopwatch": "~3.0.0",
+        "symfony/templating": "~3.0.0",
+        "symfony/translation": "~3.0.0",
+        "twig/twig": "^1.22"
     },
     "require-dev": {
-        "symfony/dotenv": "^3.4",
-        "symfony/maker-bundle": "^1.2",
-        "symfony/profiler-pack": "^1.0",
-        "symfony/web-server-bundle": "^3.4"
-    },
-    "config": {
-        "preferred-install": {
-            "*": "dist"
-        },
-        "sort-packages": true
+        "phpunit/phpunit": "~4.7.3"
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "Pagekit\\": "app/modules/application/src",
+            "Pagekit\\Installer\\": "app/installer/src",
+            "Pagekit\\System\\": "app/system/src",
+            "Pagekit\\Config\\": "app/modules/config/src",
+            "Pagekit\\Console\\": "app/console/src",
+            "Pagekit\\Migration\\": "app/modules/migration/src"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "App\\Tests\\": "tests/"
-        }
-    },
-    "replace": {
-        "symfony/polyfill-iconv": "*",
-        "symfony/polyfill-php70": "*",
-        "symfony/polyfill-php56": "*"
-    },
-    "scripts": {
-        "auto-scripts": {
-            "cache:clear": "symfony-cmd",
-            "assets:install --symlink --relative %PUBLIC_DIR%": "symfony-cmd"
-        },
-        "post-install-cmd": [
-            "@auto-scripts"
-        ],
-        "post-update-cmd": [
-            "@auto-scripts"
-        ]
-    },
-    "conflict": {
-        "symfony/symfony": "*"
-    },
-    "extra": {
-        "symfony": {
-            "id": "01CADW409JR1GZX0Z3S2X62RV5",
-            "allow-contrib": false
-        }
+    "config": {
+        "vendor-dir": "app/vendor"
     }
 }

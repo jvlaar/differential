@@ -1,0 +1,75 @@
+.frontpage {
+	.cta {
+			margin: 10% 0;
+			text-align: center;
+			padding: 1px;
+
+			img {
+				width: 40%;
+				display: block;
+				margin: auto;
+				margin-bottom: 1em;
+			}
+		}
+
+	.ctaLink {
+		text-decoration: none;
+		color: #000000;
+		transition: color 0.5s ease;
+
+		&:hover {
+			color: #990000;
+		}
+	}
+
+	.releases {
+		display: flex;
+		width: 50%;
+		justify-content: space-between;
+		.release{
+			width: 45%;
+			display: inline-block;
+			text-align: center;
+
+			img {
+				width: 100%;
+			}
+
+			color: #000000;
+			text-decoration: none;
+
+			&:hover {
+				color: $hover;
+			}
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	.frontpage {
+		.cta {
+			img {
+				width: 65%;
+			}
+		}
+
+		.releases {
+			margin-bottom: 4em;
+			width: 75%;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.frontpage {
+		.cta {
+			img {
+				width: 100%;
+			}
+		}
+
+		.releases{
+			width: 100%;
+		}
+	}
+}

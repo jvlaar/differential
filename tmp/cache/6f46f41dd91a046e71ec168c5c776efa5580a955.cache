@@ -1,0 +1,127 @@
+<?php return array (
+  'lifetime' => 0,
+  'data' => 
+  array (
+    'class' => 'Driven\\Listings\\Model\\Listing',
+    'eventPrefix' => NULL,
+    'events' => 
+    array (
+    ),
+    'fields' => 
+    array (
+      'id' => 
+      array (
+        'name' => 'id',
+        'type' => 'integer',
+        'id' => true,
+        'column' => 'id',
+      ),
+      'created_by' => 
+      array (
+        'name' => 'created_by',
+        'type' => 'integer',
+        'column' => 'created_by',
+      ),
+      'created_on' => 
+      array (
+        'name' => 'created_on',
+        'type' => 'integer',
+        'column' => 'created_on',
+      ),
+      'modified_by' => 
+      array (
+        'name' => 'modified_by',
+        'type' => 'integer',
+        'column' => 'modified_by',
+      ),
+      'modified_on' => 
+      array (
+        'name' => 'modified_on',
+        'type' => 'integer',
+        'column' => 'modified_on',
+      ),
+      'title' => 
+      array (
+        'name' => 'title',
+        'type' => 'string',
+        'column' => 'title',
+      ),
+      'description' => 
+      array (
+        'name' => 'description',
+        'type' => 'string',
+        'column' => 'description',
+      ),
+      'template_id' => 
+      array (
+        'name' => 'template_id',
+        'type' => 'integer',
+        'column' => 'template_id',
+      ),
+      'featured_from' => 
+      array (
+        'name' => 'featured_from',
+        'type' => 'integer',
+        'column' => 'featured_from',
+      ),
+      'featured_to' => 
+      array (
+        'name' => 'featured_to',
+        'type' => 'integer',
+        'column' => 'featured_to',
+      ),
+      'position' => 
+      array (
+        'name' => 'position',
+        'type' => 'smallint',
+        'column' => 'position',
+      ),
+      'status' => 
+      array (
+        'name' => 'status',
+        'type' => 'smallint',
+        'column' => 'status',
+      ),
+    ),
+    'isMappedSuperclass' => false,
+    'relations' => 
+    array (
+      'creator' => 
+      array (
+        'name' => 'creator',
+        'type' => 'BelongsTo',
+        'targetEntity' => 'Pagekit\\User\\Model\\User',
+        'keyFrom' => 'created_by',
+        'keyTo' => NULL,
+      ),
+      'editor' => 
+      array (
+        'name' => 'editor',
+        'type' => 'BelongsTo',
+        'targetEntity' => 'Pagekit\\User\\Model\\User',
+        'keyFrom' => 'modified_by',
+        'keyTo' => NULL,
+      ),
+      'template' => 
+      array (
+        'name' => 'template',
+        'type' => 'BelongsTo',
+        'targetEntity' => 'Driven\\Listings\\Model\\Template',
+        'keyFrom' => 'template_id',
+        'keyTo' => NULL,
+      ),
+      'categories' => 
+      array (
+        'name' => 'categories',
+        'type' => 'HasMany',
+        'targetEntity' => 'Driven\\Listings\\Model\\ListingCategory',
+        'keyFrom' => 'id',
+        'keyTo' => 'listing_id',
+        'orderBy' => 
+        array (
+        ),
+      ),
+    ),
+    'table' => '@listings_listing',
+  ),
+);

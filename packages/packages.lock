@@ -1,0 +1,339 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "9b2e798e911f62b9127d47571eab18f2",
+    "content-hash": "e1abe6484324b5911b250a929776fc7b",
+    "packages": [
+        {
+            "name": "driven/listings",
+            "version": "1.0.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/driven/listings/1.0.6.zip",
+                "reference": null,
+                "shasum": "390d7c073057391662981bec3c737a860fec1484"
+            },
+            "archive": {
+                "exclude": [
+                    "node_modules"
+                ]
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "scripts": "scripts.php",
+                "icon": "icon.svg"
+            },
+            "authors": [
+                {
+                    "name": "driven.",
+                    "email": "contact@driven.network",
+                    "homepage": "https://driven.network"
+                }
+            ],
+            "description": "Listings provides a clean way to create manageable content for your site. Create any type of listed content like professional portfolios, products showcase, events, restaurant menus and more.\r\nQuickly build your list by using the built-in Default Template which can be easily configured to showcase your content as you want or create custom templates for your content."
+        },
+        {
+            "name": "fosphatic/uikit3-theme-minimal",
+            "version": "1.0.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/fosphatic/uikit3-theme-minimal/1.0.5.zip",
+                "reference": null,
+                "shasum": "41faf69516d631cb65952e62bddc371a2ef58d90"
+            },
+            "archive": {
+                "exclude": [
+                    "!/app",
+                    "!/css",
+                    "/app/assets"
+                ]
+            },
+            "type": "pagekit-theme",
+            "extra": {
+                "image": "image.jpg"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sven Suchan",
+                    "email": "kontakt@suchan-webdesign.de",
+                    "homepage": "https://www.suchan-webdesign.de"
+                }
+            ],
+            "description": "A very clean and simple theme great for blogging. Now ported to UIKit V3"
+        },
+        {
+            "name": "lusitanian/oauth",
+            "version": "v0.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Lusitanian/PHPoAuthLib.git",
+                "reference": "4ce8c488971410233eb3b1e6d9ac4e81debb41d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Lusitanian/PHPoAuthLib/zipball/4ce8c488971410233eb3b1e6d9ac4e81debb41d5",
+                "reference": "4ce8c488971410233eb3b1e6d9ac4e81debb41d5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "predis/predis": "0.8.*@dev",
+                "symfony/http-foundation": "~2.1"
+            },
+            "suggest": {
+                "ext-openssl": "Allows for usage of secure connections with the stream-based HTTP client.",
+                "predis/predis": "Allows using the Redis storage backend.",
+                "symfony/http-foundation": "Allows using the Symfony Session storage backend."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "OAuth": "src",
+                    "OAuth\\Unit": "tests"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Desberg",
+                    "email": "david@daviddesberg.com"
+                },
+                {
+                    "name": "Pieter Hordijk",
+                    "email": "info@pieterhordijk.com"
+                }
+            ],
+            "description": "PHP 5.3+ oAuth 1/2 Library",
+            "keywords": [
+                "Authentication",
+                "authorization",
+                "oauth",
+                "security"
+            ],
+            "time": "2015-09-09 06:43:02"
+        },
+        {
+            "name": "pagekit/analytics",
+            "version": "1.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/pagekit/analytics/1.0.1.zip",
+                "reference": null,
+                "shasum": "11b9836e5e3a7678aca2833d724087ca291de1a3"
+            },
+            "archive": {
+                "exclude": [
+                    "node_modules",
+                    "!/app"
+                ]
+            },
+            "require": {
+                "lusitanian/oauth": "~0.3.5"
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "scripts": "scripts.php"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pagekit",
+                    "email": "info@pagekit.com",
+                    "homepage": "http://pagekit.com"
+                }
+            ],
+            "description": "An analytics extension for your dashboard."
+        },
+        {
+            "name": "pagekit/blog",
+            "version": "1.0.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/pagekit/blog/1.0.5.zip",
+                "reference": null,
+                "shasum": "4657db4af9302b18be115050e82555ab09405a21"
+            },
+            "archive": {
+                "exclude": [
+                    "node_modules",
+                    "!/app"
+                ]
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "scripts": "scripts.php"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pagekit",
+                    "email": "info@pagekit.com",
+                    "homepage": "http://pagekit.com"
+                }
+            ],
+            "description": "A blog extensions with a built-in comment system."
+        },
+        {
+            "name": "pagekit/theme-hello",
+            "version": "1.0.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/pagekit/theme-hello/1.0.3.zip",
+                "reference": null,
+                "shasum": "aab3768ba77de8063e8ee38cadfe8839b6dfb509"
+            },
+            "type": "pagekit-theme",
+            "extra": {
+                "image": "image.jpg"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pagekit",
+                    "email": "info@pagekit.com",
+                    "homepage": "http://pagekit.com"
+                }
+            ],
+            "description": "A blueprint to develop your own themes."
+        },
+        {
+            "name": "pagekit/theme-one",
+            "version": "1.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/pagekit/theme-one/1.0.0.zip",
+                "reference": null,
+                "shasum": "6d49b3cbb1de15b4a3947890e7935b13de76f7f8"
+            },
+            "archive": {
+                "exclude": [
+                    "node_modules",
+                    "!/app",
+                    "!/css",
+                    "/app/assets",
+                    "gulpfile.js",
+                    "bower.js",
+                    "package.js"
+                ]
+            },
+            "type": "pagekit-theme",
+            "extra": {
+                "image": "image.jpg"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pagekit",
+                    "email": "info@pagekit.com",
+                    "homepage": "http://pagekit.com"
+                }
+            ],
+            "description": "Pagekit's default theme."
+        },
+        {
+            "name": "pagekit/tinymce",
+            "version": "1.0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/pagekit/tinymce/1.0.2.zip",
+                "reference": null,
+                "shasum": "8ca836ba4ac29ab4cd89870da351b8bd6a92601b"
+            },
+            "archive": {
+                "exclude": [
+                    "node_modules",
+                    "!/app",
+                    "*.less",
+                    "/app/assets/tinymce/skins",
+                    "/app/assets/tinymce/tinymce.js",
+                    "/app/assets/tinymce/tinymce.min.js",
+                    "/app/assets/tinymce/tinymce.jquery.js",
+                    "/app/assets/tinymce/jquery.tinymce.min",
+                    "/app/assets/tinymce/plugins/**/*.js",
+                    "!/app/assets/tinymce/plugins/**/*.min.js"
+                ]
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "scripts": "scripts.php"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pagekit",
+                    "email": "info@pagekit.com",
+                    "homepage": "http://pagekit.com"
+                }
+            ],
+            "description": "Replace Pagekit's default editor with TinyMCE."
+        },
+        {
+            "name": "tobbe/widget-includer",
+            "version": "1.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/tobbe/widget-includer/1.1.1.zip",
+                "reference": null,
+                "shasum": "8a96701370aabe6541cdff4e21b8260e3acb546a"
+            },
+            "archive": {
+                "exclude": [
+                    "node_modules"
+                ]
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.png",
+                "image": "image.png"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tobbe",
+                    "email": "contact@tobbexiv.de",
+                    "homepage": "https://github.com/tobbexiv/pagekit-widget-includer"
+                }
+            ],
+            "description": "Include widgets anywhere in your content."
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

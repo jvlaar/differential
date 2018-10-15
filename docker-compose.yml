@@ -1,27 +1,8 @@
 version: '2'
 services:
-    php-app:
-        build:
-            context: .
-            dockerfile: Dockerfile
-        links:
-            - mysql
-        volumes:
-            - ./:/var/www
-        environment:
-            - DEV=true
-    nginx-proxy:
-        image: nginx
-        links:
-            - php-app:php-app
-        volumes_from:
-            - php-app
-        ports:
-            - "8000:80"
-    mysql:
-        image: mariadb:latest
-        ports:
-            - "3306:3306"
-        environment:
-            - MYSQL_ALLOW_EMPTY_PASSWORD=yes
-            - MYSQL_DATABASE=symfony
+  pagekit:
+    image: pagekit/pagekit:sqlite
+    ports:
+        - "8000:80"
+    volumes:
+        - .:/pagekit/
